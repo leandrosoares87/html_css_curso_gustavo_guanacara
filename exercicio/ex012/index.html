@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos com HTML5</title>
+  <link rel="shortcut icon" href="../ex011/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Inserindo vídeos hospedatos localmente</h1>
+  <p style="font-family: Arial, Helvetica, sans-serif;">
+      Este <strong>vídeo</strong> esta hospedado no meu próprio servidor.
+  </p>
+  <video src="midia/Meu-Video1.M4v.mp4"  width="560" height="315"
+         controls autoplay loop>
+  </video>
+  <h2>Testando vídeo M4v</h2>
+  <p style="font-family: Arial, Helvetica, sans-serif;">
+    Este <strong>vídeo</strong> esta hospedado no meu próprio servidor.
+</p>
+  <video  width="560" height="315" poster="imagens/limoes-capa.png" controls>
+    <source src="midia/Meu-Video1.M4v.mp4" type="video/mp4">
+    <source src="midia/Meu-Videos.Mkv.mkv" type="video/mkv">
+    <source src="midia/meu-video.mp4.mp4" type="video/mp4">
+    <source src="midia/Meu-Videos.Webm.webm" type="video/webm">
+    Seu navegador não suporta a tag vídeo.
+  </video>
+  <h1>Inserindo vídeos do youtube</h1>
+  <p style="font-family: Arial, Helvetica, sans-serif;">
+    Este <strong>vídeo</strong> esta hospedado no servido externo.
+  </p>
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/6MvjIFXUlx4?si=PRTh_5A_G8VIYlEi" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+  <h1>Inserindo vídeos do Vimeo</h1>
+  <p style="font-family: Arial, Helvetica, sans-serif;">
+    Este <strong>vídeo</strong> esta hospedado no servido externo.
+  </p>
+  <iframe src="https://player.vimeo.com/video/879718402?h=a5edbd2653"
+    width="560" height="315" frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+  </iframe>
+</body>
+</html>
