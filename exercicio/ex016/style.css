@@ -1,6 +1,37 @@
-body {
-  font-size: 24px;
+@charset "UTF-8";
+
+* {
   font-family: Arial, Helvetica, sans-serif;
-  background: #0F7173;
-  color: #931621;
+  /*height: 100%;*/
+}
+
+
+body {
+  background-image: linear-gradient(to right, #D19979, #FFDBC7);
+}
+
+main {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(143, 104, 82, 0.616);
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #ca9431;
+  text-shadow: 1px 1px 0px rgba(86, 63, 20, 0.616);
+}
+
+h2 {
+  text-shadow: 1px 1px 0px black;
+  color: #38b0ae;
+  text-shadow: 1px 1px 0px  rgba(23, 71, 71, 0.7);
+}
+
+
+p {
+  text-align: justify;
 }
